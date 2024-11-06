@@ -1,12 +1,12 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:learn_bloc_flutter/constants/my_colors.dart';
-import 'package:learn_bloc_flutter/data/models/character_model.dart';
+import 'package:learn_bloc_flutter/data/models/details_character_model.dart';
 
 class ChatactersDetailsScreen extends StatelessWidget {
   const ChatactersDetailsScreen({super.key, required this.character});
 
-  final CharactersModel character;
+  final DetailsCharactersModel character;
 
   Widget buildSliverAppBar() {
     return SliverAppBar(
@@ -113,9 +113,7 @@ class ChatactersDetailsScreen extends StatelessWidget {
                               ScaleAnimatedText(
                                   'thinks ♥ it is ${character.gender}'),
                             ],
-                            onTap: () {
-                           
-                            },
+                            onTap: () {},
                           ),
                         ),
                       )

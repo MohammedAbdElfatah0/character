@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:learn_bloc_flutter/bussiness_logic/cubit/characters_cubit.dart';
 import 'package:learn_bloc_flutter/constants/string.dart';
-import 'package:learn_bloc_flutter/data/models/character_model.dart';
+import 'package:learn_bloc_flutter/data/models/details_character_model.dart';
 import 'package:learn_bloc_flutter/data/respsitory/characters_repository.dart';
 import 'package:learn_bloc_flutter/data/web_services/characters_web_services.dart';
 import 'package:learn_bloc_flutter/presentation/screens/characters_screen.dart';
@@ -29,8 +29,11 @@ class AppRouter {
                   child: CharactersScreen(),
                 ));
       case chatactersDetailsScreen:
-        final character = settings.arguments as CharactersModel;
-        return MaterialPageRoute(builder: (_) => ChatactersDetailsScreen(character: character,));
+        final character = settings.arguments as DetailsCharactersModel;
+        return MaterialPageRoute(
+            builder: (_) => ChatactersDetailsScreen(
+                  character: character,
+                ));
     }
   }
 }

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:learn_bloc_flutter/constants/my_colors.dart';
 import 'package:learn_bloc_flutter/constants/string.dart';
-import 'package:learn_bloc_flutter/data/models/character_model.dart';
+import 'package:learn_bloc_flutter/data/models/details_character_model.dart';
 
 class CharacherItem extends StatelessWidget {
   const CharacherItem({super.key, required this.charactersModel});
 
-  final CharactersModel charactersModel;
+  final DetailsCharactersModel charactersModel;
   @override
   Widget build(BuildContext context) {
     return Container(

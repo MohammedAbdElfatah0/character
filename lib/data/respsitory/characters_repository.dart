@@ -1,4 +1,4 @@
-import 'package:learn_bloc_flutter/data/models/character_model.dart';
+import 'package:learn_bloc_flutter/data/models/details_character_model.dart';
 import 'package:learn_bloc_flutter/data/web_services/characters_web_services.dart';
 
 class CharactersRepository {
@@ -6,8 +6,9 @@ class CharactersRepository {
 
   CharactersRepository({required this.charactersWebServices});
 
-  Future<List<CharactersModel>> getAllCharacters() async {
-    final List<CharactersModel> characters = await charactersWebServices.getAllCharacters();
+  Future<List<DetailsCharactersModel>> getAllCharacters() async {
+    final List<DetailsCharactersModel> characters =
+        await charactersWebServices.getAllCharacters();
     return characters;
   }
 }

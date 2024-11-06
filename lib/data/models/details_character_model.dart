@@ -1,4 +1,4 @@
-class CharactersModel {
+class DetailsCharactersModel {
   final int id;
   final String name;
   final String status;
@@ -6,7 +6,7 @@ class CharactersModel {
   final String gender;
   final String image;
 
-  CharactersModel({
+  DetailsCharactersModel({
     required this.id,
     required this.name,
     required this.status,
@@ -15,8 +15,8 @@ class CharactersModel {
     required this.image,
   });
 
-  factory CharactersModel.fromJson(Map<String, dynamic> json) {
-    return CharactersModel(
+  factory DetailsCharactersModel.fromJson(Map<String, dynamic> json) {
+    return DetailsCharactersModel(
       id: json['id'],
       name: json['name'],
       status: json['status'],

@@ -4,7 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_offline/flutter_offline.dart';
 import 'package:learn_bloc_flutter/bussiness_logic/cubit/characters_cubit.dart';
 import 'package:learn_bloc_flutter/constants/my_colors.dart';
-import 'package:learn_bloc_flutter/data/models/character_model.dart';
+import 'package:learn_bloc_flutter/data/models/details_character_model.dart';
 import 'package:learn_bloc_flutter/presentation/widget/characher_item.dart';
 
 class CharactersScreen extends StatefulWidget {
@@ -15,8 +15,8 @@ class CharactersScreen extends StatefulWidget {
 }
 
 class _CharactersScreenState extends State<CharactersScreen> {
-  late List<CharactersModel> allCharacters;
-  late List<CharactersModel> searchForCharacters;
+  late List<DetailsCharactersModel> allCharacters;
+  late List<DetailsCharactersModel> searchForCharacters;
   bool _isSearch = false;
   final _searchTextController = TextEditingController();
   @override
