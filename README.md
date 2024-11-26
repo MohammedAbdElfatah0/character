@@ -1,7 +1,3 @@
-Here’s your README text with a fully customized and structured shape that you can copy and paste directly into your GitHub README file:
-
----
-
 # 🎭 App of Characters  
 
 A **Flutter** application that demonstrates:  
