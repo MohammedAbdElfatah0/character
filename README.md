@@ -77,7 +77,11 @@ To get started with this app, follow the steps below:
 
 Here’s a preview of the app:  
 
-![App Screenshot](https://github.com/user-attachments/assets/876a69ec-35dd-4825-b20e-b33ec8b7f6e1)  
+
+
+https://github.com/user-attachments/assets/cc8b11ae-555f-47c5-8d6f-02b800d86a8f
+
+
 
 ---
 
