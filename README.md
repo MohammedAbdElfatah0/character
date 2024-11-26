@@ -39,7 +39,7 @@ To get started with this app, follow the steps below:
 
 2. Navigate to the project directory:  
    ```bash  
-   cd app_of_characters  
+   cd character 
    ```  
 
 3. Install the required dependencies:  
@@ -78,9 +78,7 @@ To get started with this app, follow the steps below:
 Here’s a preview of the app:  
 
 
-
 https://github.com/user-attachments/assets/cc8b11ae-555f-47c5-8d6f-02b800d86a8f
-
 
 
 ---
@@ -101,7 +99,6 @@ We welcome contributions! Follow these steps to contribute:
    ```bash  
    git push origin feature-name  
    ```  
-5. Open a pull request!  
 
 ---
 
