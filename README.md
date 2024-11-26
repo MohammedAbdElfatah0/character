@@ -108,7 +108,7 @@ We welcome contributions! Follow these steps to contribute:
 ## 📬 Contact  
 
 For questions or suggestions, feel free to reach out:  
-**Your Name**  
-[Your Email](hamoabelfatah611@gmail.com)  
+**Mohammed Mohammed Abd Elfatah**  
+[Your Email](hamoabdelfatah611@gmail.com)  
 
 ---
