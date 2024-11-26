@@ -1,16 +1,18 @@
-# learn_bloc_flutter
+### App of Characters 
 
-A new Flutter project.
+using package::
+    animated_text_kit
+    dio
+    flutter_bloc
+    flutter_offline
+if you need to install:
+'''
+flutter pub add dio
+flutter pub add animated_text_kit
+flutter pub add flutter_bloc
+flutter pub add flutter_offline
+'''
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+https://github.com/user-attachments/assets/876a69ec-35dd-4825-b20e-b33ec8b7f6e1
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
