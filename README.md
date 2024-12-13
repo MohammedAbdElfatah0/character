@@ -73,7 +73,7 @@ To get started with this app, follow the steps below:
 
 ---
 
-## 📸 Screenshots  
+## 📸 ScreenRecorder  
 
 Here’s a preview of the app:  
 
